@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+
+Sitemap: https://mon-photobooth-nantes.fr/sitemap.xml
+
+# Location Photobooth Nantes - BeHappy
+# https://mon-photobooth-nantes.fr
