@@ -6,37 +6,37 @@ const Services = () => {
     {
       icon: Camera,
       title: "Borne Photo Premium",
-      description: "\u00C9quipement professionnel derni\u00E8re g\u00E9n\u00E9ration avec impression instantan\u00E9e haute qualit\u00E9 et \u00E9cran tactile intuitif.",
+      description: "Équipement professionnel dernière génération avec impression instantanée haute qualité et écran tactile intuitif.",
       color: "from-primary-500 to-primary-600"
     },
     {
       icon: Users,
       title: "Animateur Professionnel",
-      description: "Un animateur d\u00E9di\u00E9 pour guider vos invit\u00E9s, distribuer les accessoires et garantir une ambiance festive.",
+      description: "Un animateur dédié pour guider vos invités, distribuer les accessoires et garantir une ambiance festive.",
       color: "from-accent-500 to-accent-600"
     },
     {
       icon: Settings,
-      title: "Personnalisation Compl\u00E8te",
-      description: "D\u00E9cors, filtres et cadres personnalis\u00E9s aux couleurs de votre \u00E9v\u00E9nement. Votre logo, vos pr\u00E9noms, votre style.",
+      title: "Personnalisation Complète",
+      description: "Décors, filtres et cadres personnalisés aux couleurs de votre événement. Votre logo, vos prénoms, votre style.",
       color: "from-violet-500 to-violet-600"
     },
     {
       icon: Heart,
       title: "Photobooth Mariage",
-      description: "Packages d\u00E9di\u00E9s pour votre jour J : livre d'or num\u00E9rique, souvenirs personnalis\u00E9s, accessoires premium.",
+      description: "Packages dédiés pour votre jour J : livre d'or numérique, souvenirs personnalisés, accessoires premium.",
       color: "from-pink-500 to-pink-600"
     },
     {
       icon: Gift,
-      title: "\u00C9v\u00E9nements d'Entreprise",
-      description: "Solutions corporate sur mesure pour s\u00E9minaires, inaugurations, team buildings et soir\u00E9es d'entreprise \u00E0 Nantes.",
+      title: "Événements d'Entreprise",
+      description: "Solutions corporate sur mesure pour séminaires, inaugurations, team buildings et soirées d'entreprise à Nantes.",
       color: "from-emerald-500 to-emerald-600"
     },
     {
       icon: Sparkles,
-      title: "Anniversaires & F\u00EAtes",
-      description: "Rendez vos c\u00E9l\u00E9brations inoubliables avec nos d\u00E9cors th\u00E9matiques, accessoires ludiques et impressions illimit\u00E9es.",
+      title: "Anniversaires & Fêtes",
+      description: "Rendez vos célébrations inoubliables avec nos décors thématiques, accessoires ludiques et impressions illimitées.",
       color: "from-amber-500 to-amber-600"
     }
   ];
@@ -50,11 +50,11 @@ const Services = () => {
           </span>
           <h2 id="services-heading" className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-gray-900 mb-6 tracking-tight">
             Location de Photobooth pour{' '}
-            <span className="text-gradient">tous vos \u00E9v\u00E9nements</span>
+            <span className="text-gradient">tous vos événements</span>
           </h2>
           <p className="text-lg text-gray-500 max-w-2xl mx-auto leading-relaxed">
-            Des solutions compl\u00E8tes de location de borne photo \u00E0 Nantes et en Loire-Atlantique.
-            Qualit\u00E9 premium, service personnalis\u00E9, souvenirs garantis.
+            Des solutions complètes de location de borne photo à Nantes et en Loire-Atlantique.
+            Qualité premium, service personnalisé, souvenirs garantis.
           </p>
         </div>
 
@@ -79,11 +79,11 @@ const Services = () => {
 
         <div className="text-center mt-14">
           <a
-            href="mailto:contact@mon-photobooth-nantes.fr?subject=Demande de devis personnalis\u00E9"
+            href="mailto:contact@mon-photobooth-nantes.fr?subject=Demande de devis personnalisé"
             className="group inline-flex items-center space-x-2 bg-gradient-to-r from-primary-500 to-primary-600 text-white px-8 py-4 rounded-2xl text-lg font-semibold hover:from-primary-600 hover:to-primary-700 transition-all duration-300 shadow-lg shadow-primary-500/25 hover:shadow-primary-500/40 hover:scale-105"
-            aria-label="Demander un devis personnalis\u00E9 pour la location de photobooth"
+            aria-label="Demander un devis personnalisé pour la location de photobooth"
           >
-            <span>Demander un devis personnalis\u00E9</span>
+            <span>Demander un devis personnalisé</span>
             <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
           </a>
         </div>

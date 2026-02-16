@@ -10,28 +10,28 @@ const FAQ = () => {
 
   const faqData = [
     {
-      question: "Qu'est-ce qui est inclus dans la location de photobooth \u00E0 Nantes ?",
-      answer: "Chaque location comprend l'\u00E9quipement complet (borne photo, \u00E9cran tactile, imprimante), l'\u00E9clairage LED professionnel, l'installation et la d\u00E9sinstallation sur site, le partage num\u00E9rique illimit\u00E9 par email et r\u00E9seaux sociaux, ainsi que les impressions papier 10\u00D715 cm selon la formule choisie."
+      question: "Qu'est-ce qui est inclus dans la location de photobooth à Nantes ?",
+      answer: "Chaque location comprend l'équipement complet (borne photo, écran tactile, imprimante), l'éclairage LED professionnel, l'installation et la désinstallation sur site, le partage numérique illimité par email et réseaux sociaux, ainsi que les impressions papier 10×15 cm selon la formule choisie."
     },
     {
       question: "Quels sont les tarifs de location de photobooth ?",
-      answer: "Nos tarifs sont de 200\u20AC pour la formule Soir\u00E9e (250 impressions), 300\u20AC pour la Soir\u00E9e Premium (500 impressions) et 450\u20AC pour le Week-end (1000 impressions). B\u00E9n\u00E9ficiez de -15% pour les \u00E9v\u00E9nements en semaine !"
+      answer: "Nos tarifs sont de 200€ pour la formule Soirée (250 impressions), 300€ pour la Soirée Premium (500 impressions) et 450€ pour le Week-end (1000 impressions). Bénéficiez de -15% pour les événements en semaine !"
     },
     {
       question: "Dans quelles zones intervenez-vous autour de Nantes ?",
-      answer: "Nous intervenons \u00E0 Nantes, Saint-Herblain et dans toute la Loire-Atlantique (44). Nous couvrons \u00E9galement les d\u00E9partements limitrophes (Vend\u00E9e, Maine-et-Loire, Morbihan) sur demande."
+      answer: "Nous intervenons à Nantes, Saint-Herblain et dans toute la Loire-Atlantique (44). Nous couvrons également les départements limitrophes (Vendée, Maine-et-Loire, Morbihan) sur demande."
     },
     {
-      question: "Comment r\u00E9server un photobooth pour mon \u00E9v\u00E9nement ?",
-      answer: "La r\u00E9servation est simple : contactez-nous par email \u00E0 contact@mon-photobooth-nantes.fr ou via notre formulaire. Nous vous envoyons un devis personnalis\u00E9 gratuit sous 24h. Un acompte de 30% confirme votre r\u00E9servation."
+      question: "Comment réserver un photobooth pour mon événement ?",
+      answer: "La réservation est simple : contactez-nous par email à contact@mon-photobooth-nantes.fr ou via notre formulaire. Nous vous envoyons un devis personnalisé gratuit sous 24h. Un acompte de 30% confirme votre réservation."
     },
     {
-      question: "Le photobooth est-il adapt\u00E9 pour un mariage \u00E0 Nantes ?",
-      answer: "Notre photobooth est id\u00E9al pour les mariages. Nous proposons une personnalisation compl\u00E8te des cadres et filtres aux couleurs de votre \u00E9v\u00E9nement, un livre d'or num\u00E9rique, des accessoires premium et un animateur optionnel pour garantir une ambiance festive."
+      question: "Le photobooth est-il adapté pour un mariage à Nantes ?",
+      answer: "Notre photobooth est idéal pour les mariages. Nous proposons une personnalisation complète des cadres et filtres aux couleurs de votre événement, un livre d'or numérique, des accessoires premium et un animateur optionnel pour garantir une ambiance festive."
     },
     {
       question: "Peut-on personnaliser les impressions du photobooth ?",
-      answer: "Oui, toutes nos formules incluent la personnalisation des impressions. Vous pouvez int\u00E9grer votre logo, les pr\u00E9noms des mari\u00E9s, la date de l'\u00E9v\u00E9nement, et choisir parmi de nombreux templates et filtres."
+      answer: "Oui, toutes nos formules incluent la personnalisation des impressions. Vous pouvez intégrer votre logo, les prénoms des mariés, la date de l'événement, et choisir parmi de nombreux templates et filtres."
     }
   ];
 
@@ -43,10 +43,10 @@ const FAQ = () => {
             FAQ
           </span>
           <h2 id="faq-heading" className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-6 tracking-tight">
-            Questions <span className="text-gradient">fr\u00E9quentes</span>
+            Questions <span className="text-gradient">fréquentes</span>
           </h2>
           <p className="text-lg text-gray-500 max-w-xl mx-auto">
-            Tout ce que vous devez savoir sur la location de photobooth \u00E0 Nantes
+            Tout ce que vous devez savoir sur la location de photobooth à Nantes
           </p>
         </div>
 

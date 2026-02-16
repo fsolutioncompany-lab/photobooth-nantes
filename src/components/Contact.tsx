@@ -41,7 +41,7 @@ const Contact = () => {
             Parlons de votre <span className="text-gradient">projet</span>
           </h2>
           <p className="text-lg text-white/50 max-w-2xl mx-auto">
-            Contactez notre \u00E9quipe pour un devis personnalis\u00E9 et gratuit. R\u00E9ponse garantie sous 24h.
+            Contactez notre équipe pour un devis personnalisé et gratuit. Réponse garantie sous 24h.
           </p>
         </div>
 
@@ -70,11 +70,11 @@ const Contact = () => {
           <div className="bg-gradient-to-r from-primary-500/10 to-primary-600/10 rounded-2xl p-8 md:p-10 border border-primary-500/20">
             <div className="text-center">
               <h3 className="text-2xl md:text-3xl font-extrabold text-white mb-4">
-                Pr\u00EAt \u00E0 r\u00E9server votre photobooth ?
+                Prêt à réserver votre photobooth ?
               </h3>
               <p className="text-white/50 mb-8 max-w-lg mx-auto">
-                Notre \u00E9quipe est \u00E0 votre \u00E9coute pour cr\u00E9er ensemble l'animation parfaite pour votre \u00E9v\u00E9nement \u00E0 Nantes.
-                Devis gratuit et personnalis\u00E9 sous 24h.
+                Notre équipe est à votre écoute pour créer ensemble l'animation parfaite pour votre événement à Nantes.
+                Devis gratuit et personnalisé sous 24h.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                 <a
@@ -88,7 +88,7 @@ const Contact = () => {
                 </a>
                 <div className="flex items-center space-x-2 text-white/40">
                   <Clock className="h-4 w-4" />
-                  <span className="text-sm">R\u00E9ponse sous 24h</span>
+                  <span className="text-sm">Réponse sous 24h</span>
                 </div>
               </div>
             </div>
@@ -97,7 +97,7 @@ const Contact = () => {
           {/* Zone info */}
           <div className="text-center mt-10">
             <p className="text-white/30 text-sm">
-              Service disponible \u00E0 Nantes, Saint-Herblain et dans toute la Loire-Atlantique (44)
+              Service disponible à Nantes, Saint-Herblain et dans toute la Loire-Atlantique (44)
             </p>
           </div>
         </div>

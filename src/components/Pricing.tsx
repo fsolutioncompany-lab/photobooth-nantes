@@ -3,28 +3,28 @@ import { Camera, Crown, Star, Check } from 'lucide-react';
 
 const Pricing = () => {
   const features = [
-    "Photos, vid\u00E9os & GIFs illimit\u00E9s",
-    "\u00C9cran tactile intuitif",
-    "\u00C9clairage LED professionnel",
-    "Partage num\u00E9rique illimit\u00E9",
-    "Installation & d\u00E9sinstallation",
-    "Accessoires & d\u00E9cors"
+    "Photos, vidéos & GIFs illimités",
+    "Écran tactile intuitif",
+    "Éclairage LED professionnel",
+    "Partage numérique illimité",
+    "Installation & désinstallation",
+    "Accessoires & décors"
   ];
 
   const packages = [
     {
-      name: "Soir\u00E9e",
+      name: "Soirée",
       price: "200",
       impressions: "250 impressions",
-      paper: "papier 10\u00D715 cm",
+      paper: "papier 10×15 cm",
       icon: Camera,
       popular: false
     },
     {
-      name: "Soir\u00E9e Premium",
+      name: "Soirée Premium",
       price: "300",
       impressions: "500 impressions",
-      paper: "papier 10\u00D715 cm",
+      paper: "papier 10×15 cm",
       icon: Crown,
       popular: true
     },
@@ -32,7 +32,7 @@ const Pricing = () => {
       name: "Week-end",
       price: "450",
       impressions: "1000 impressions",
-      paper: "papier 10\u00D715 cm",
+      paper: "papier 10×15 cm",
       icon: Star,
       popular: false
     }
@@ -49,7 +49,7 @@ const Pricing = () => {
             Nos <span className="text-gradient">formules</span> tout inclus
           </h2>
           <p className="text-lg text-gray-500 max-w-2xl mx-auto">
-            Chaque formule inclut l'\u00E9quipement complet, l'installation et le partage num\u00E9rique illimit\u00E9. <strong className="text-primary-500">-15% en semaine !</strong>
+            Chaque formule inclut l'équipement complet, l'installation et le partage numérique illimité. <strong className="text-primary-500">-15% en semaine !</strong>
           </p>
         </div>
 
@@ -106,13 +106,13 @@ const Pricing = () => {
               </ul>
 
               <a
-                href={`mailto:contact@mon-photobooth-nantes.fr?subject=R\u00E9servation formule ${pkg.name}`}
+                href={`mailto:contact@mon-photobooth-nantes.fr?subject=Réservation formule ${pkg.name}`}
                 className={`block w-full py-3.5 rounded-xl text-center font-semibold text-sm transition-all duration-300 hover:scale-[1.02] ${
                   pkg.popular
                     ? 'bg-gradient-to-r from-primary-500 to-primary-600 text-white shadow-lg shadow-primary-500/25 hover:shadow-primary-500/40'
                     : 'bg-gray-900 text-white hover:bg-gray-800'
                 }`}
-                aria-label={`Choisir la formule ${pkg.name} \u00E0 ${pkg.price}\u20AC`}
+                aria-label={`Choisir la formule ${pkg.name} à ${pkg.price}€`}
               >
                 Choisir cette formule
               </a>
