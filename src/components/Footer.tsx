@@ -20,8 +20,8 @@ const Footer = () => {
               </div>
             </a>
             <p className="text-white/40 mb-6 max-w-sm leading-relaxed text-sm">
-              Sp\u00E9cialiste de la location de photobooth \u00E0 Nantes et en Loire-Atlantique.
-              Cr\u00E9ez des souvenirs inoubliables pour tous vos \u00E9v\u00E9nements : mariages, anniversaires, s\u00E9minaires.
+              Spécialiste de la location de photobooth à Nantes et en Loire-Atlantique.
+              Créez des souvenirs inoubliables pour tous vos événements : mariages, anniversaires, séminaires.
             </p>
             <div className="flex space-x-3">
               <a href="#" className="bg-white/5 hover:bg-primary-500 p-2.5 rounded-xl transition-all duration-300" aria-label="Facebook">
@@ -69,9 +69,9 @@ const Footer = () => {
         <div className="border-t border-white/5 pt-8 mt-12">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="text-white/30 text-xs">
-              <p>&copy; 2025 Mon PhotoBooth Nantes. Tous droits r\u00E9serv\u00E9s.</p>
+              <p>&copy; 2025 Mon PhotoBooth Nantes. Tous droits réservés.</p>
               <p className="mt-1">
-                Site r\u00E9alis\u00E9 par{' '}
+                Site réalisé par{' '}
                 <a
                   href="https://fournard-consulting.fr/"
                   target="_blank"
@@ -84,10 +84,10 @@ const Footer = () => {
             </div>
             <div className="flex space-x-6">
               <a href="/mentions-legales" className="text-white/30 hover:text-primary-400 text-xs transition-colors duration-200">
-                Mentions l\u00E9gales
+                Mentions légales
               </a>
               <a href="/politique-confidentialite" className="text-white/30 hover:text-primary-400 text-xs transition-colors duration-200">
-                Politique de confidentialit\u00E9
+                Politique de confidentialité
               </a>
             </div>
           </div>

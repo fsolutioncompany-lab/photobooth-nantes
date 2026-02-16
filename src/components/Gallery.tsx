@@ -9,25 +9,25 @@ const Gallery = () => {
       url: "https://mon-photobooth-nantes.fr/photobooth-nantes2.png",
       title: "Photobooth Mariage Nantes",
       category: "Mariages",
-      alt: "Location photobooth pour mariage \u00E9l\u00E9gant \u00E0 Nantes - borne photo avec impressions"
+      alt: "Location photobooth pour mariage élégant à Nantes - borne photo avec impressions"
     },
     {
       url: "https://mon-photobooth-nantes.fr/photobooth-nantes3.png",
-      title: "F\u00EAte d'Anniversaire",
+      title: "Fête d'Anniversaire",
       category: "Anniversaires",
-      alt: "Animation photobooth pour f\u00EAte d'anniversaire \u00E0 Nantes - accessoires et impressions"
+      alt: "Animation photobooth pour fête d'anniversaire à Nantes - accessoires et impressions"
     },
     {
       url: "https://mon-photobooth-nantes.fr/photobooth.png",
-      title: "\u00C9v\u00E9nement Corporate",
+      title: "Événement Corporate",
       category: "Entreprise",
-      alt: "Borne photo pour \u00E9v\u00E9nement d'entreprise \u00E0 Nantes - s\u00E9minaire et team building"
+      alt: "Borne photo pour événement d'entreprise à Nantes - séminaire et team building"
     },
     {
       url: "https://mon-photobooth-nantes.fr/photobooth-nantes.png",
-      title: "Soir\u00E9e Priv\u00E9e",
-      category: "Soir\u00E9es",
-      alt: "Location photobooth soir\u00E9e priv\u00E9e Nantes Loire-Atlantique - photos et GIFs"
+      title: "Soirée Privée",
+      category: "Soirées",
+      alt: "Location photobooth soirée privée Nantes Loire-Atlantique - photos et GIFs"
     }
   ];
 
@@ -39,10 +39,10 @@ const Gallery = () => {
             Galerie
           </span>
           <h2 id="gallery-heading" className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-gray-900 mb-6 tracking-tight">
-            Nos <span className="text-gradient">r\u00E9alisations</span> en images
+            Nos <span className="text-gradient">réalisations</span> en images
           </h2>
           <p className="text-lg text-gray-500 max-w-2xl mx-auto">
-            D\u00E9couvrez notre photobooth premium en action lors d'\u00E9v\u00E9nements \u00E0 Nantes et sa r\u00E9gion
+            Découvrez notre photobooth premium en action lors d'événements à Nantes et sa région
           </p>
         </div>
 
