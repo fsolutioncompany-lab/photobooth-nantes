@@ -1,5 +1,6 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useMemo } from 'react';
 import { Camera, MapPin, Check, Users, Heart, Gift, Sparkles, Clock, Euro, Settings, Star, ArrowRight, Mail } from 'lucide-react';
+import { cities } from '../data/cities';
 import type { CityData } from '../data/cities';
 
 interface CityPageProps {
@@ -7,6 +8,12 @@ interface CityPageProps {
 }
 
 const CityPage: React.FC<CityPageProps> = ({ city }) => {
+  const citySlugMap = useMemo(() => {
+    const map: Record<string, string> = { 'Saint-Herblain': 'saint-herblain' };
+    cities.forEach(c => { map[c.name] = c.slug; });
+    return map;
+  }, []);
+
   useEffect(() => {
     document.title = city.seoTitle;
 
@@ -451,11 +458,21 @@ const CityPage: React.FC<CityPageProps> = ({ city }) => {
             Nous intervenons aussi autour de {city.name}
           </h2>
           <div className="flex flex-wrap justify-center gap-3">
-            {city.nearbyAreas.map((area, index) => (
-              <span key={index} className="bg-white border border-gray-200 px-5 py-2.5 rounded-full text-gray-700 font-medium hover:border-primary-300 hover:text-primary-500 transition-colors">
-                {area}
-              </span>
-            ))}
+            {city.nearbyAreas.map((area, index) => {
+              const slug = citySlugMap[area];
+              if (slug) {
+                return (
+                  <a key={index} href={`/${slug}`} className="bg-white border border-gray-200 px-5 py-2.5 rounded-full text-gray-700 font-medium hover:border-primary-300 hover:text-primary-500 transition-colors">
+                    {area}
+                  </a>
+                );
+              }
+              return (
+                <span key={index} className="bg-white border border-gray-200 px-5 py-2.5 rounded-full text-gray-700 font-medium">
+                  {area}
+                </span>
+              );
+            })}
             <a href="/#contact" className="bg-primary-50 border border-primary-200 px-5 py-2.5 rounded-full text-primary-600 font-medium hover:bg-primary-100 transition-colors">
               Autre ville ? Contactez-nous
             </a>
